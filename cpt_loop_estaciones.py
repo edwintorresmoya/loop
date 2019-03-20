@@ -3,6 +3,7 @@
 """
 Created on Fri Mar  8 14:55:13 2019
 script para encontrar áreas en el cpt
+Para datos de las estaciones
 @author: edwin
 """
 import pandas as pd
@@ -11,27 +12,34 @@ import pdb
 import os
 import time
 from netCDF4 import Dataset
+from mapas_matplot_lib import grafica_nc
 
 #nlat_1 = 28; slat_1 = -6; wlon_1 = 162; elon_1 = 322; lat_2 = 12; lon_2 = 12
 #pasox=0.55; pasoy = 0.55
 
 #nlat_1 = 90, slat_1 = -90, wlon_1 = -10, elon_1 = 349,
-def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio total
-              lat_2 = 10, lon_2 = 10, paso = 10, # Dominio de muestreo y paso Ojo lo que esté con y se entiende como la variable predictora
+def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas límites de los datos de X
+              lat_2 = 10, lon_2 = 10, paso = 10, # Largo y ancho del dominio pequeño que se usará como información predictora y paso
               variable_x = '/home/edwin/.wine/drive_c/CPT/basura/sst_2000_2018.tsv',
               variable_y = '/home/edwin/.wine/drive_c/CPT/basura/precip_2000_2018.tsv', 
               minimum_number_modes_x = 1,
               maximum_number_modes_x = 5,
-              nor_lat = 11, # Para los datos en grilla de los Y
+              nor_lat = 11, # Coordenadas que se van a predecir# Para los datos en grilla de los Y
               sur_lat = -4,
-              wes_lon = 281,
-              eas_lon = 291,
+              wes_lon = 281,# Coordenadas que se van a predecir
+              eas_lon = 291,# Coordenadas que se van a predecir
               minimum_number_modes_y = 1,
               maximum_number_modes_y = 5,
               minimum_number_modes_cca = 1,# Número de modos de la correlación canónica
               maximum_number_modes_cca = 3,
-              raster = 'salida'): # Nombre del archivo de la salida
-    
+              raster = 'salida',# nombre del archivo de salida
+              month_forecast = 3, # Mes que se va a pronosticar
+              lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
+              spi_lenght = 3):
+
+
+
+
     # Función creada para buscar las áreas que mejores resultados presentan para 
     # correlacionar las SST con las estaciones.
     
@@ -119,6 +127,9 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
                 print(maximum_number_modes_x, file=f)
                 print('2', file=f)
                 print(variable_y, file=f)
+                print(month_forecast, file=f) # First month of season to forecast
+                print(lenght_of_season, file=f)# Length of season to forecast
+                print(spi_lenght, file=f) # Length of SPI
                 print(nor_lat, file=f)
                 print(sur_lat, file=f)
                 print(wes_lon, file=f)
@@ -139,6 +150,7 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
             
             os.popen('rm salida.txt')   # Usado para darle tiempo al procesamiento
             #time.sleep(1)
+            #pdb.set_trace()
             valor_1 = os.popen('./CPT.x < script_loop.txt > salida.txt')
             valor_1.read() # es un paso que parece innecesaro pero se debe hacer para que se respete el tiempo del procesamiento del código en bash
             valor_1.close()
@@ -194,9 +206,30 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
 
     ##Finalización del netcdf
     dataset.close()
+    #pdb.set_trace()
+    grafica_nc(archivo_nc = actual_dir+raster+'.nc')
 
 
 
     return(matriz_final)       
+#pdb.set_trace()
+#matriz_15 = loop_area(paso=15, raster='paso15', lat_2 = 10, lon_2 = 10)
+#lmatriz_15 = loop_area(nlat_1 = 32, slat_1 = -30, wlon_1 = 174, elon_1 = 288,# Coordenadas límites de los datos de X
+#        lat_2 = 10, lon_2 = 10, paso = 10, # Largo y ancho del dominio pequeño que se usará como información predictora y paso
+#        variable_x = '/home/edwin/Downloads/CPT/15.7.6/data/ERSST_OND_1982-2014.tsv',
+#        variable_y = '/home/edwin/Downloads/CPT/15.7.6/data/CPT_Estac_llanos_chirps_Ok2.csv', 
+#        minimum_number_modes_x = 1,
+#        maximum_number_modes_x = 5,
+#        nor_lat = 6, # Coordenadas que se van a predecir# Para los datos en grilla de los Y
+#        sur_lat = 3,
+#        wes_lon = -75,# Coordenadas que se van a predecir
+#        eas_lon = -71,# Coordenadas que se van a predecir
+#        minimum_number_modes_y = 1,
+#        maximum_number_modes_y = 5,
+#        minimum_number_modes_cca = 1,# Número de modos de la correlación canónica
+#        maximum_number_modes_cca = 3,
+#        raster = 'llano_p1',# nombre del archivo de salida
+#        month_forecast = 3, # Mes que se va a pronosticar
+#        lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
+#        spi_lenght = 3)
 
-matriz_15 = loop_area(paso=15, raster='paso15', lat_2 = 10, lon_2 = 10)

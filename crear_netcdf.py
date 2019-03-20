@@ -1,7 +1,7 @@
 #Crear el archivo vacío
 # Tomado de http://www.ceda.ac.uk/static/media/uploads/ncas-reading-2015/11_create_netcdf_python.pdf
 from netCDF4 import Dataset
-dataset = Dataset('test.nc', 'w', format='NETCDF4_CLASSIC')
+dataset = Dataset('llano_p1.nc', 'w', format='NETCDF4_CLASSIC')
 print(dataset.file_format)
 
 # Crear las dimensiones

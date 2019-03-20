@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "creación de los comandos para la creación de los plots para los archivos netcdf"
+git commit -m "Compilado de los códigos para que funcione con el archivo ejecutar.py"
 git push -u origin master

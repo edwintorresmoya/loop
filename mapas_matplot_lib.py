@@ -15,6 +15,7 @@ def grafica_nc(archivo_nc='paso15.nc'):
     lat = nc.variables['latitude'][:]
     lon = nc.variables['longitude'][:]-360.
     time = nc.variables['time'][:]
+    #pdb.set_trace()
     cor_1 = nc.variables['cor_1'][:] # Valores del goodnes index
     nc.close()
     lat_inter = (lat[0] - lat[-1]) / 10.0
@@ -55,4 +56,5 @@ def grafica_nc(archivo_nc='paso15.nc'):
     plt.savefig(archivo_nc[:-3]+'.png', figsize=(20,10) ,dpi = 199)
     #plt.show()
 
-grafica_nc()
+#grafica_nc(archivo_nc = 'llano_p1.nc')
+#grafica_nc()
