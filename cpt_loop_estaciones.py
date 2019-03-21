@@ -105,10 +105,10 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     os.chdir('/home/edwin/Downloads/CPT/15.7.6')#Ojo se tiene que ejecutar donde se pueda ejecutar el ./CPT.exe
     os.popen('touch salida.txt') # Se crea este archivo para que luego se elimine
     for coun_lat, (lat, lat_sup, lat_inf) in enumerate(zip(base_y.lat, base_y.lat_sup, base_y.lat_inf)):
-        #print(coun_lat, lat, lat_sup, lat_inf)
+        print('====================================',str(coun_lat)+' de '+str(len(base_y.lat)), '============================================================================')
         for coun_lon, (lon, lon_iz, lon_de) in enumerate(zip(base_x.lon, base_x.lon_iz, base_x.lon_de)):
             #pdb.set_trace()
-            print(lat, lon, str(coun_lon) +' de '+ str(len(base_x.lon)))
+            print(lat, lon)
             
             #f = open('script-'+str(lat)+'-'+str(lon)+'.txt', 'w')
             #with open('script-'+str(lat)+'-'+str(lon)+'.txt', 'w') as f:
@@ -154,8 +154,8 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
             valor_1 = os.popen('./CPT.x < script_loop.txt > salida.txt')
             valor_1.read() # es un paso que parece innecesaro pero se debe hacer para que se respete el tiempo del procesamiento del código en bash
             valor_1.close()
-            while 'salida.txt' not in os.listdir(): # usado para dare tiempo al procesamiento, es por prevensión, pero creo que no es necesario
-                time.sleep(2)
+            #while 'salida.txt' not in os.listdir(): # usado para dare tiempo al procesamiento, es por prevensión, pero creo que no es necesario
+            #    time.sleep(2)
                 
                 
             
