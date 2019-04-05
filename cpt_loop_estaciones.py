@@ -56,7 +56,10 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     #matriz_5_15 = loop_area(paso=5, raster='paso5_15', lat_2 = 10, lon_2 = 10)
     #         
     #Cuando se valla a hacer mapas es mejor usar la proyección EPSG=3832
-    
+
+    ###Condicional para evitar el paso de las longituded
+
+    print(elon_1)
     #pdb.set_trace()
     #Primer punto
     actual_dir = os.getcwd()+'/'
@@ -88,6 +91,9 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     while dx2 < elon_1:
         wl = dx2 - (lon_2 / 2)
         el = dx2 + (lon_2 / 2)
+
+        if (el) > 360:
+            el = (el)-360 
         
         base_x2 = pd.DataFrame({'lon':[dx2],
                                  'lon_iz':[wl],
@@ -127,9 +133,9 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
                 print(maximum_number_modes_x, file=f)
                 print('2', file=f)
                 print(variable_y, file=f)
-                print(month_forecast, file=f) # First month of season to forecast
-                print(lenght_of_season, file=f)# Length of season to forecast
-                print(spi_lenght, file=f) # Length of SPI
+                #print(month_forecast, file=f) # First month of season to forecast
+                #print(lenght_of_season, file=f)# Length of season to forecast
+                #print(spi_lenght, file=f) # Length of SPI
                 print(nor_lat, file=f)
                 print(sur_lat, file=f)
                 print(wes_lon, file=f)
@@ -138,11 +144,11 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
                 print(maximum_number_modes_y, file=f)
                 print(minimum_number_modes_cca, file=f)
                 print(maximum_number_modes_cca, file=f)
-                print('533', file=f)
-                print('4', file=f)
-                print('2', file=f)
-                print('-1.3', file=f)
-                print('-1.6', file=f)
+                #print('533', file=f)
+                #print('4', file=f)
+                #print('2', file=f)
+                #print('-1.3', file=f)
+                #print('-1.6', file=f)
                 print('311', file=f)
                 print('131', file=f) # Dar formato a la salida
                 print('2', file=f) # Formato definido

@@ -1,0 +1,3920 @@
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f8fb20d0eea
+#1  0x7f8fb20d1a45
+#2  0x7f8fb20d21fc
+#3  0x7f8fb219e2a3
+#4  0x7f8fb2198e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f8fb172fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f77b435eeea
+#1  0x7f77b435fa45
+#2  0x7f77b43601fc
+#3  0x7f77b442c2a3
+#4  0x7f77b4426e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f77b39bdb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2fa2d6ceea
+#1  0x7f2fa2d6da45
+#2  0x7f2fa2d6e1fc
+#3  0x7f2fa2e3a2a3
+#4  0x7f2fa2e34e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2fa23cbb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7427140eea
+#1  0x7f7427141a45
+#2  0x7f74271421fc
+#3  0x7f742720e2a3
+#4  0x7f7427208e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f742679fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f38284eeeea
+#1  0x7f38284efa45
+#2  0x7f38284f01fc
+#3  0x7f38285bc2a3
+#4  0x7f38285b6e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3827b4db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f43af9d0eea
+#1  0x7f43af9d1a45
+#2  0x7f43af9d21fc
+#3  0x7f43afa9e2a3
+#4  0x7f43afa98e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f43af02fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f78c9ddbeea
+#1  0x7f78c9ddca45
+#2  0x7f78c9ddd1fc
+#3  0x7f78c9ea92a3
+#4  0x7f78c9ea3e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f78c943ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fa91b260eea
+#1  0x7fa91b261a45
+#2  0x7fa91b2621fc
+#3  0x7fa91b32e2a3
+#4  0x7fa91b328e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fa91a8bfb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f964a51deea
+#1  0x7f964a51ea45
+#2  0x7f964a51f1fc
+#3  0x7f964a5eb2a3
+#4  0x7f964a5e5e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9649b7cb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fea2bd82eea
+#1  0x7fea2bd83a45
+#2  0x7fea2bd841fc
+#3  0x7fea2be502a3
+#4  0x7fea2be4ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fea2b3e1b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f102e252eea
+#1  0x7f102e253a45
+#2  0x7f102e2541fc
+#3  0x7f102e3202a3
+#4  0x7f102e31ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f102d8b1b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd7b84cceea
+#1  0x7fd7b84cda45
+#2  0x7fd7b84ce1fc
+#3  0x7fd7b859a2a3
+#4  0x7fd7b8594e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd7b7b2bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc410453eea
+#1  0x7fc410454a45
+#2  0x7fc4104551fc
+#3  0x7fc4105212a3
+#4  0x7fc41051be69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc40fab2b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc37f064eea
+#1  0x7fc37f065a45
+#2  0x7fc37f0661fc
+#3  0x7fc37f1322a3
+#4  0x7fc37f12ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc37e6c3b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f6f35f11eea
+#1  0x7f6f35f12a45
+#2  0x7f6f35f131fc
+#3  0x7f6f35fdf2a3
+#4  0x7f6f35fd9e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f6f35570b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f88c4a76eea
+#1  0x7f88c4a77a45
+#2  0x7f88c4a781fc
+#3  0x7f88c4b442a3
+#4  0x7f88c4b3ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f88c40d5b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f430986eeea
+#1  0x7f430986fa45
+#2  0x7f43098701fc
+#3  0x7f430993c2a3
+#4  0x7f4309936e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4308ecdb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f57a595feea
+#1  0x7f57a5960a45
+#2  0x7f57a59611fc
+#3  0x7f57a5a2d2a3
+#4  0x7f57a5a27e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f57a4fbeb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fab151fceea
+#1  0x7fab151fda45
+#2  0x7fab151fe1fc
+#3  0x7fab152ca2a3
+#4  0x7fab152c4e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fab1485bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2a7bd6aeea
+#1  0x7f2a7bd6ba45
+#2  0x7f2a7bd6c1fc
+#3  0x7f2a7be382a3
+#4  0x7f2a7be32e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2a7b3c9b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe854a0deea
+#1  0x7fe854a0ea45
+#2  0x7fe854a0f1fc
+#3  0x7fe854adb2a3
+#4  0x7fe854ad5e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe85406cb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd87a703eea
+#1  0x7fd87a704a45
+#2  0x7fd87a7051fc
+#3  0x7fd87a7d12a3
+#4  0x7fd87a7cbe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd879d62b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f72cec4deea
+#1  0x7f72cec4ea45
+#2  0x7f72cec4f1fc
+#3  0x7f72ced1b2a3
+#4  0x7f72ced15e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f72ce2acb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fecadd49eea
+#1  0x7fecadd4aa45
+#2  0x7fecadd4b1fc
+#3  0x7fecade172a3
+#4  0x7fecade11e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fecad3a8b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7bbd5c1eea
+#1  0x7f7bbd5c2a45
+#2  0x7f7bbd5c31fc
+#3  0x7f7bbd68f2a3
+#4  0x7f7bbd689e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f7bbcc20b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f81ee94eeea
+#1  0x7f81ee94fa45
+#2  0x7f81ee9501fc
+#3  0x7f81eea1c2a3
+#4  0x7f81eea16e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f81edfadb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f642711aeea
+#1  0x7f642711ba45
+#2  0x7f642711c1fc
+#3  0x7f64271e82a3
+#4  0x7f64271e2e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f6426779b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fdfc5366eea
+#1  0x7fdfc5367a45
+#2  0x7fdfc53681fc
+#3  0x7fdfc54342a3
+#4  0x7fdfc542ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fdfc49c5b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f8fa22c8eea
+#1  0x7f8fa22c9a45
+#2  0x7f8fa22ca1fc
+#3  0x7f8fa23962a3
+#4  0x7f8fa2390e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f8fa1927b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fdeddcd0eea
+#1  0x7fdeddcd1a45
+#2  0x7fdeddcd21fc
+#3  0x7fdeddd9e2a3
+#4  0x7fdeddd98e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fdedd32fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2c8df93eea
+#1  0x7f2c8df94a45
+#2  0x7f2c8df951fc
+#3  0x7f2c8e0612a3
+#4  0x7f2c8e05be69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2c8d5f2b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f1af2168eea
+#1  0x7f1af2169a45
+#2  0x7f1af216a1fc
+#3  0x7f1af22362a3
+#4  0x7f1af2230e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f1af17c7b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe44ecdfeea
+#1  0x7fe44ece0a45
+#2  0x7fe44ece11fc
+#3  0x7fe44edad2a3
+#4  0x7fe44eda7e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe44e33eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f143728aeea
+#1  0x7f143728ba45
+#2  0x7f143728c1fc
+#3  0x7f14373582a3
+#4  0x7f1437352e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f14368e9b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f9c875e2eea
+#1  0x7f9c875e3a45
+#2  0x7f9c875e41fc
+#3  0x7f9c876b02a3
+#4  0x7f9c876aae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9c86c41b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7faf0d7eeeea
+#1  0x7faf0d7efa45
+#2  0x7faf0d7f01fc
+#3  0x7faf0d8bc2a3
+#4  0x7faf0d8b6e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7faf0ce4db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe94ef32eea
+#1  0x7fe94ef33a45
+#2  0x7fe94ef341fc
+#3  0x7fe94f0002a3
+#4  0x7fe94effae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe94e591b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f0378ed4eea
+#1  0x7f0378ed5a45
+#2  0x7f0378ed61fc
+#3  0x7f0378fa22a3
+#4  0x7f0378f9ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f0378533b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fefad187eea
+#1  0x7fefad188a45
+#2  0x7fefad1891fc
+#3  0x7fefad2552a3
+#4  0x7fefad24fe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fefac7e6b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f836bfb7eea
+#1  0x7f836bfb8a45
+#2  0x7f836bfb91fc
+#3  0x7f836c0852a3
+#4  0x7f836c07fe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f836b616b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f8416eeceea
+#1  0x7f8416eeda45
+#2  0x7f8416eee1fc
+#3  0x7f8416fba2a3
+#4  0x7f8416fb4e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f841654bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f38381d6eea
+#1  0x7f38381d7a45
+#2  0x7f38381d81fc
+#3  0x7f38382a42a3
+#4  0x7f383829ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3837835b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f41f1585eea
+#1  0x7f41f1586a45
+#2  0x7f41f15871fc
+#3  0x7f41f16532a3
+#4  0x7f41f164de69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f41f0be4b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7faa92b02eea
+#1  0x7faa92b03a45
+#2  0x7faa92b041fc
+#3  0x7faa92bd02a3
+#4  0x7faa92bcae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7faa92161b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd7dce6feea
+#1  0x7fd7dce70a45
+#2  0x7fd7dce711fc
+#3  0x7fd7dcf3d2a3
+#4  0x7fd7dcf37e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd7dc4ceb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd224405eea
+#1  0x7fd224406a45
+#2  0x7fd2244071fc
+#3  0x7fd2244d32a3
+#4  0x7fd2244cde69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd223a64b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f85be564eea
+#1  0x7f85be565a45
+#2  0x7f85be5661fc
+#3  0x7f85be6322a3
+#4  0x7f85be62ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f85bdbc3b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fdf12804eea
+#1  0x7fdf12805a45
+#2  0x7fdf128061fc
+#3  0x7fdf128d22a3
+#4  0x7fdf128cce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fdf11e63b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2fb5d32eea
+#1  0x7f2fb5d33a45
+#2  0x7f2fb5d341fc
+#3  0x7f2fb5e002a3
+#4  0x7f2fb5dfae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2fb5391b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f4aea8bfeea
+#1  0x7f4aea8c0a45
+#2  0x7f4aea8c11fc
+#3  0x7f4aea98d2a3
+#4  0x7f4aea987e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4ae9f1eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f461e9edeea
+#1  0x7f461e9eea45
+#2  0x7f461e9ef1fc
+#3  0x7f461eabb2a3
+#4  0x7f461eab5e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f461e04cb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe378f14eea
+#1  0x7fe378f15a45
+#2  0x7fe378f161fc
+#3  0x7fe378fe22a3
+#4  0x7fe378fdce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe378573b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f3908fd5eea
+#1  0x7f3908fd6a45
+#2  0x7f3908fd71fc
+#3  0x7f39090a32a3
+#4  0x7f390909de69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3908634b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ffa35f00eea
+#1  0x7ffa35f01a45
+#2  0x7ffa35f021fc
+#3  0x7ffa35fce2a3
+#4  0x7ffa35fc8e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ffa3555fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f213f48feea
+#1  0x7f213f490a45
+#2  0x7f213f4911fc
+#3  0x7f213f55d2a3
+#4  0x7f213f557e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f213eaeeb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f04064f9eea
+#1  0x7f04064faa45
+#2  0x7f04064fb1fc
+#3  0x7f04065c72a3
+#4  0x7f04065c1e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f0405b58b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff7cc2a0eea
+#1  0x7ff7cc2a1a45
+#2  0x7ff7cc2a21fc
+#3  0x7ff7cc36e2a3
+#4  0x7ff7cc368e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff7cb8ffb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7459d94eea
+#1  0x7f7459d95a45
+#2  0x7f7459d961fc
+#3  0x7f7459e622a3
+#4  0x7f7459e5ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f74593f3b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7f102a1eea
+#1  0x7f7f102a2a45
+#2  0x7f7f102a31fc
+#3  0x7f7f1036f2a3
+#4  0x7f7f10369e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f7f0f900b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f94a23b6eea
+#1  0x7f94a23b7a45
+#2  0x7f94a23b81fc
+#3  0x7f94a24842a3
+#4  0x7f94a247ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f94a1a15b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc9d20fceea
+#1  0x7fc9d20fda45
+#2  0x7fc9d20fe1fc
+#3  0x7fc9d21ca2a3
+#4  0x7fc9d21c4e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc9d175bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7feef60aaeea
+#1  0x7feef60aba45
+#2  0x7feef60ac1fc
+#3  0x7feef61782a3
+#4  0x7feef6172e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7feef5709b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f443bba7eea
+#1  0x7f443bba8a45
+#2  0x7f443bba91fc
+#3  0x7f443bc752a3
+#4  0x7f443bc6fe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f443b206b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff207240eea
+#1  0x7ff207241a45
+#2  0x7ff2072421fc
+#3  0x7ff20730e2a3
+#4  0x7ff207308e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff20689fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f467e856eea
+#1  0x7f467e857a45
+#2  0x7f467e8581fc
+#3  0x7f467e9242a3
+#4  0x7f467e91ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f467deb5b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f15c2cf8eea
+#1  0x7f15c2cf9a45
+#2  0x7f15c2cfa1fc
+#3  0x7f15c2dc62a3
+#4  0x7f15c2dc0e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f15c2357b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff0faf3ceea
+#1  0x7ff0faf3da45
+#2  0x7ff0faf3e1fc
+#3  0x7ff0fb00a2a3
+#4  0x7ff0fb004e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff0fa59bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe7f7b5ceea
+#1  0x7fe7f7b5da45
+#2  0x7fe7f7b5e1fc
+#3  0x7fe7f7c2a2a3
+#4  0x7fe7f7c24e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe7f71bbb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7c722ebeea
+#1  0x7f7c722eca45
+#2  0x7f7c722ed1fc
+#3  0x7f7c723b92a3
+#4  0x7f7c723b3e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f7c7194ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f3c2e2c3eea
+#1  0x7f3c2e2c4a45
+#2  0x7f3c2e2c51fc
+#3  0x7f3c2e3912a3
+#4  0x7f3c2e38be69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3c2d922b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f4dc0b1feea
+#1  0x7f4dc0b20a45
+#2  0x7f4dc0b211fc
+#3  0x7f4dc0bed2a3
+#4  0x7f4dc0be7e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4dc017eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc8fef11eea
+#1  0x7fc8fef12a45
+#2  0x7fc8fef131fc
+#3  0x7fc8fefdf2a3
+#4  0x7fc8fefd9e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc8fe570b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f15e8f8feea
+#1  0x7f15e8f90a45
+#2  0x7f15e8f911fc
+#3  0x7f15e905d2a3
+#4  0x7f15e9057e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f15e85eeb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff1c1ce2eea
+#1  0x7ff1c1ce3a45
+#2  0x7ff1c1ce41fc
+#3  0x7ff1c1db02a3
+#4  0x7ff1c1daae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff1c1341b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fdae29e8eea
+#1  0x7fdae29e9a45
+#2  0x7fdae29ea1fc
+#3  0x7fdae2ab62a3
+#4  0x7fdae2ab0e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fdae2047b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f467852feea
+#1  0x7f4678530a45
+#2  0x7f46785311fc
+#3  0x7f46785fd2a3
+#4  0x7f46785f7e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4677b8eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f332797deea
+#1  0x7f332797ea45
+#2  0x7f332797f1fc
+#3  0x7f3327a4b2a3
+#4  0x7f3327a45e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3326fdcb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f0130250eea
+#1  0x7f0130251a45
+#2  0x7f01302521fc
+#3  0x7f013031e2a3
+#4  0x7f0130318e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f012f8afb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd286fe9eea
+#1  0x7fd286feaa45
+#2  0x7fd286feb1fc
+#3  0x7fd2870b72a3
+#4  0x7fd2870b1e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd286648b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f4b4df16eea
+#1  0x7f4b4df17a45
+#2  0x7f4b4df181fc
+#3  0x7f4b4dfe42a3
+#4  0x7f4b4dfdee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4b4d575b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fecf97feeea
+#1  0x7fecf97ffa45
+#2  0x7fecf98001fc
+#3  0x7fecf98cc2a3
+#4  0x7fecf98c6e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fecf8e5db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f8d7c5bceea
+#1  0x7f8d7c5bda45
+#2  0x7f8d7c5be1fc
+#3  0x7f8d7c68a2a3
+#4  0x7f8d7c684e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f8d7bc1bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f3212827eea
+#1  0x7f3212828a45
+#2  0x7f32128291fc
+#3  0x7f32128f52a3
+#4  0x7f32128efe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3211e86b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f9effbbfeea
+#1  0x7f9effbc0a45
+#2  0x7f9effbc11fc
+#3  0x7f9effc8d2a3
+#4  0x7f9effc87e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9eff21eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd129220eea
+#1  0x7fd129221a45
+#2  0x7fd1292221fc
+#3  0x7fd1292ee2a3
+#4  0x7fd1292e8e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd12887fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd33f87ceea
+#1  0x7fd33f87da45
+#2  0x7fd33f87e1fc
+#3  0x7fd33f94a2a3
+#4  0x7fd33f944e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd33eedbb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f04020c5eea
+#1  0x7f04020c6a45
+#2  0x7f04020c71fc
+#3  0x7f04021932a3
+#4  0x7f040218de69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f0401724b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2604224eea
+#1  0x7f2604225a45
+#2  0x7f26042261fc
+#3  0x7f26042f22a3
+#4  0x7f26042ece69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2603883b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f59ec3ffeea
+#1  0x7f59ec400a45
+#2  0x7f59ec4011fc
+#3  0x7f59ec4cd2a3
+#4  0x7f59ec4c7e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f59eba5eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f41effe1eea
+#1  0x7f41effe2a45
+#2  0x7f41effe31fc
+#3  0x7f41f00af2a3
+#4  0x7f41f00a9e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f41ef640b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fdcdf0eaeea
+#1  0x7fdcdf0eba45
+#2  0x7fdcdf0ec1fc
+#3  0x7fdcdf1b82a3
+#4  0x7fdcdf1b2e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fdcde749b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd690adeeea
+#1  0x7fd690adfa45
+#2  0x7fd690ae01fc
+#3  0x7fd690bac2a3
+#4  0x7fd690ba6e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd69013db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f1831659eea
+#1  0x7f183165aa45
+#2  0x7f183165b1fc
+#3  0x7f18317272a3
+#4  0x7f1831721e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f1830cb8b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fb985a9deea
+#1  0x7fb985a9ea45
+#2  0x7fb985a9f1fc
+#3  0x7fb985b6b2a3
+#4  0x7fb985b65e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fb9850fcb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fec2cc46eea
+#1  0x7fec2cc47a45
+#2  0x7fec2cc481fc
+#3  0x7fec2cd142a3
+#4  0x7fec2cd0ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fec2c2a5b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc41248deea
+#1  0x7fc41248ea45
+#2  0x7fc41248f1fc
+#3  0x7fc41255b2a3
+#4  0x7fc412555e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc411aecb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f1ff92faeea
+#1  0x7f1ff92fba45
+#2  0x7f1ff92fc1fc
+#3  0x7f1ff93c82a3
+#4  0x7f1ff93c2e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f1ff8959b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fad5f5afeea
+#1  0x7fad5f5b0a45
+#2  0x7fad5f5b11fc
+#3  0x7fad5f67d2a3
+#4  0x7fad5f677e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fad5ec0eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f86a346deea
+#1  0x7f86a346ea45
+#2  0x7f86a346f1fc
+#3  0x7f86a353b2a3
+#4  0x7f86a3535e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f86a2accb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fcb7b4c7eea
+#1  0x7fcb7b4c8a45
+#2  0x7fcb7b4c91fc
+#3  0x7fcb7b5952a3
+#4  0x7fcb7b58fe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fcb7ab26b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff41da17eea
+#1  0x7ff41da18a45
+#2  0x7ff41da191fc
+#3  0x7ff41dae52a3
+#4  0x7ff41dadfe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff41d076b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f4d0d62beea
+#1  0x7f4d0d62ca45
+#2  0x7f4d0d62d1fc
+#3  0x7f4d0d6f92a3
+#4  0x7f4d0d6f3e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4d0cc8ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2fd5adceea
+#1  0x7f2fd5adda45
+#2  0x7f2fd5ade1fc
+#3  0x7f2fd5baa2a3
+#4  0x7f2fd5ba4e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2fd513bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc7dd166eea
+#1  0x7fc7dd167a45
+#2  0x7fc7dd1681fc
+#3  0x7fc7dd2342a3
+#4  0x7fc7dd22ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc7dc7c5b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7faef7169eea
+#1  0x7faef716aa45
+#2  0x7faef716b1fc
+#3  0x7faef72372a3
+#4  0x7faef7231e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7faef67c8b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f9bdf16aeea
+#1  0x7f9bdf16ba45
+#2  0x7f9bdf16c1fc
+#3  0x7f9bdf2382a3
+#4  0x7f9bdf232e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9bde7c9b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fbc04623eea
+#1  0x7fbc04624a45
+#2  0x7fbc046251fc
+#3  0x7fbc046f12a3
+#4  0x7fbc046ebe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fbc03c82b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f56da5b4eea
+#1  0x7f56da5b5a45
+#2  0x7f56da5b61fc
+#3  0x7f56da6822a3
+#4  0x7f56da67ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f56d9c13b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7feabd0a5eea
+#1  0x7feabd0a6a45
+#2  0x7feabd0a71fc
+#3  0x7feabd1732a3
+#4  0x7feabd16de69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7feabc704b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7faf192b7eea
+#1  0x7faf192b8a45
+#2  0x7faf192b91fc
+#3  0x7faf193852a3
+#4  0x7faf1937fe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7faf18916b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f690a987eea
+#1  0x7f690a988a45
+#2  0x7f690a9891fc
+#3  0x7f690aa552a3
+#4  0x7f690aa4fe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f6909fe6b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fce626eeeea
+#1  0x7fce626efa45
+#2  0x7fce626f01fc
+#3  0x7fce627bc2a3
+#4  0x7fce627b6e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fce61d4db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fd2f3a6eeea
+#1  0x7fd2f3a6fa45
+#2  0x7fd2f3a701fc
+#3  0x7fd2f3b3c2a3
+#4  0x7fd2f3b36e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fd2f30cdb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7efc928e9eea
+#1  0x7efc928eaa45
+#2  0x7efc928eb1fc
+#3  0x7efc929b72a3
+#4  0x7efc929b1e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7efc91f48b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f093e27deea
+#1  0x7f093e27ea45
+#2  0x7f093e27f1fc
+#3  0x7f093e34b2a3
+#4  0x7f093e345e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f093d8dcb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff4900d6eea
+#1  0x7ff4900d7a45
+#2  0x7ff4900d81fc
+#3  0x7ff4901a42a3
+#4  0x7ff49019ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff48f735b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f6122c34eea
+#1  0x7f6122c35a45
+#2  0x7f6122c361fc
+#3  0x7f6122d022a3
+#4  0x7f6122cfce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f6122293b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff734a1deea
+#1  0x7ff734a1ea45
+#2  0x7ff734a1f1fc
+#3  0x7ff734aeb2a3
+#4  0x7ff734ae5e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff73407cb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f54738dfeea
+#1  0x7f54738e0a45
+#2  0x7f54738e11fc
+#3  0x7f54739ad2a3
+#4  0x7f54739a7e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f5472f3eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f571ca5aeea
+#1  0x7f571ca5ba45
+#2  0x7f571ca5c1fc
+#3  0x7f571cb282a3
+#4  0x7f571cb22e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f571c0b9b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7e449baeea
+#1  0x7f7e449bba45
+#2  0x7f7e449bc1fc
+#3  0x7f7e44a882a3
+#4  0x7f7e44a82e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f7e44019b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc720ffeeea
+#1  0x7fc720fffa45
+#2  0x7fc7210001fc
+#3  0x7fc7210cc2a3
+#4  0x7fc7210c6e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc72065db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2d3028deea
+#1  0x7f2d3028ea45
+#2  0x7f2d3028f1fc
+#3  0x7f2d3035b2a3
+#4  0x7f2d30355e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2d2f8ecb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f89a821beea
+#1  0x7f89a821ca45
+#2  0x7f89a821d1fc
+#3  0x7f89a82e92a3
+#4  0x7f89a82e3e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f89a787ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f88f61a1eea
+#1  0x7f88f61a2a45
+#2  0x7f88f61a31fc
+#3  0x7f88f626f2a3
+#4  0x7f88f6269e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f88f5800b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff65f053eea
+#1  0x7ff65f054a45
+#2  0x7ff65f0551fc
+#3  0x7ff65f1212a3
+#4  0x7ff65f11be69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff65e6b2b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f3d5f866eea
+#1  0x7f3d5f867a45
+#2  0x7f3d5f8681fc
+#3  0x7f3d5f9342a3
+#4  0x7f3d5f92ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3d5eec5b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f9ae289aeea
+#1  0x7f9ae289ba45
+#2  0x7f9ae289c1fc
+#3  0x7f9ae29682a3
+#4  0x7f9ae2962e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9ae1ef9b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fecf24abeea
+#1  0x7fecf24aca45
+#2  0x7fecf24ad1fc
+#3  0x7fecf25792a3
+#4  0x7fecf2573e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fecf1b0ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fa5fe7b4eea
+#1  0x7fa5fe7b5a45
+#2  0x7fa5fe7b61fc
+#3  0x7fa5fe8822a3
+#4  0x7fa5fe87ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fa5fde13b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7abbeceeea
+#1  0x7f7abbecfa45
+#2  0x7f7abbed01fc
+#3  0x7f7abbf9c2a3
+#4  0x7f7abbf96e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f7abb52db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f58bb7fdeea
+#1  0x7f58bb7fea45
+#2  0x7f58bb7ff1fc
+#3  0x7f58bb8cb2a3
+#4  0x7f58bb8c5e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f58bae5cb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f9197885eea
+#1  0x7f9197886a45
+#2  0x7f91978871fc
+#3  0x7f91979532a3
+#4  0x7f919794de69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9196ee4b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f1bc3ba2eea
+#1  0x7f1bc3ba3a45
+#2  0x7f1bc3ba41fc
+#3  0x7f1bc3c702a3
+#4  0x7f1bc3c6ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f1bc3201b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f0668b41eea
+#1  0x7f0668b42a45
+#2  0x7f0668b431fc
+#3  0x7f0668c0f2a3
+#4  0x7f0668c09e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f06681a0b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f9a90f9beea
+#1  0x7f9a90f9ca45
+#2  0x7f9a90f9d1fc
+#3  0x7f9a910692a3
+#4  0x7f9a91063e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9a905fab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fbddefbdeea
+#1  0x7fbddefbea45
+#2  0x7fbddefbf1fc
+#3  0x7fbddf08b2a3
+#4  0x7fbddf085e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fbdde61cb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f92d526beea
+#1  0x7f92d526ca45
+#2  0x7f92d526d1fc
+#3  0x7f92d53392a3
+#4  0x7f92d5333e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f92d48cab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f95550d4eea
+#1  0x7f95550d5a45
+#2  0x7f95550d61fc
+#3  0x7f95551a22a3
+#4  0x7f955519ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9554733b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc27fa09eea
+#1  0x7fc27fa0aa45
+#2  0x7fc27fa0b1fc
+#3  0x7fc27fad72a3
+#4  0x7fc27fad1e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc27f068b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f62e934deea
+#1  0x7f62e934ea45
+#2  0x7f62e934f1fc
+#3  0x7f62e941b2a3
+#4  0x7f62e9415e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f62e89acb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7febd6a38eea
+#1  0x7febd6a39a45
+#2  0x7febd6a3a1fc
+#3  0x7febd6b062a3
+#4  0x7febd6b00e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7febd6097b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fa612331eea
+#1  0x7fa612332a45
+#2  0x7fa6123331fc
+#3  0x7fa6123ff2a3
+#4  0x7fa6123f9e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fa611990b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f76a928beea
+#1  0x7f76a928ca45
+#2  0x7f76a928d1fc
+#3  0x7f76a93592a3
+#4  0x7f76a9353e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f76a88eab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe153de7eea
+#1  0x7fe153de8a45
+#2  0x7fe153de91fc
+#3  0x7fe153eb52a3
+#4  0x7fe153eafe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe153446b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f8b50803eea
+#1  0x7f8b50804a45
+#2  0x7f8b508051fc
+#3  0x7f8b508d12a3
+#4  0x7f8b508cbe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f8b4fe62b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f3889825eea
+#1  0x7f3889826a45
+#2  0x7f38898271fc
+#3  0x7f38898f32a3
+#4  0x7f38898ede69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3888e84b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f3a69f63eea
+#1  0x7f3a69f64a45
+#2  0x7f3a69f651fc
+#3  0x7f3a6a0312a3
+#4  0x7f3a6a02be69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f3a695c2b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fcdcdfdbeea
+#1  0x7fcdcdfdca45
+#2  0x7fcdcdfdd1fc
+#3  0x7fcdce0a92a3
+#4  0x7fcdce0a3e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fcdcd63ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7418261eea
+#1  0x7f7418262a45
+#2  0x7f74182631fc
+#3  0x7f741832f2a3
+#4  0x7f7418329e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f74178c0b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fa18f0c7eea
+#1  0x7fa18f0c8a45
+#2  0x7fa18f0c91fc
+#3  0x7fa18f1952a3
+#4  0x7fa18f18fe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fa18e726b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f626b39deea
+#1  0x7f626b39ea45
+#2  0x7f626b39f1fc
+#3  0x7f626b46b2a3
+#4  0x7f626b465e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f626a9fcb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fbb153dbeea
+#1  0x7fbb153dca45
+#2  0x7fbb153dd1fc
+#3  0x7fbb154a92a3
+#4  0x7fbb154a3e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fbb14a3ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f69c246feea
+#1  0x7f69c2470a45
+#2  0x7f69c24711fc
+#3  0x7f69c253d2a3
+#4  0x7f69c2537e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f69c1aceb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe9ec982eea
+#1  0x7fe9ec983a45
+#2  0x7fe9ec9841fc
+#3  0x7fe9eca502a3
+#4  0x7fe9eca4ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe9ebfe1b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f1d3da6feea
+#1  0x7f1d3da70a45
+#2  0x7f1d3da711fc
+#3  0x7f1d3db3d2a3
+#4  0x7f1d3db37e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f1d3d0ceb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fc18cc60eea
+#1  0x7fc18cc61a45
+#2  0x7fc18cc621fc
+#3  0x7fc18cd2e2a3
+#4  0x7fc18cd28e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fc18c2bfb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f9314050eea
+#1  0x7f9314051a45
+#2  0x7f93140521fc
+#3  0x7f931411e2a3
+#4  0x7f9314118e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f93136afb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f0454227eea
+#1  0x7f0454228a45
+#2  0x7f04542291fc
+#3  0x7f04542f52a3
+#4  0x7f04542efe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f0453886b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f943a932eea
+#1  0x7f943a933a45
+#2  0x7f943a9341fc
+#3  0x7f943aa002a3
+#4  0x7f943a9fae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f9439f91b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7ff6da19ceea
+#1  0x7ff6da19da45
+#2  0x7ff6da19e1fc
+#3  0x7ff6da26a2a3
+#4  0x7ff6da264e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7ff6d97fbb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f5e4f03aeea
+#1  0x7f5e4f03ba45
+#2  0x7f5e4f03c1fc
+#3  0x7f5e4f1082a3
+#4  0x7f5e4f102e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f5e4e699b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fa42b389eea
+#1  0x7fa42b38aa45
+#2  0x7fa42b38b1fc
+#3  0x7fa42b4572a3
+#4  0x7fa42b451e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fa42a9e8b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f013b42aeea
+#1  0x7f013b42ba45
+#2  0x7f013b42c1fc
+#3  0x7f013b4f82a3
+#4  0x7f013b4f2e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f013aa89b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe177791eea
+#1  0x7fe177792a45
+#2  0x7fe1777931fc
+#3  0x7fe17785f2a3
+#4  0x7fe177859e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe176df0b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f2719494eea
+#1  0x7f2719495a45
+#2  0x7f27194961fc
+#3  0x7f27195622a3
+#4  0x7f271955ce69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f2718af3b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f1497ecbeea
+#1  0x7f1497ecca45
+#2  0x7f1497ecd1fc
+#3  0x7f1497f992a3
+#4  0x7f1497f93e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f149752ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f6d0f32beea
+#1  0x7f6d0f32ca45
+#2  0x7f6d0f32d1fc
+#3  0x7f6d0f3f92a3
+#4  0x7f6d0f3f3e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f6d0e98ab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f47e2c52eea
+#1  0x7f47e2c53a45
+#2  0x7f47e2c541fc
+#3  0x7f47e2d202a3
+#4  0x7f47e2d1ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f47e22b1b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fae9ed3ceea
+#1  0x7fae9ed3da45
+#2  0x7fae9ed3e1fc
+#3  0x7fae9ee0a2a3
+#4  0x7fae9ee04e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fae9e39bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f8a7064aeea
+#1  0x7f8a7064ba45
+#2  0x7f8a7064c1fc
+#3  0x7f8a707182a3
+#4  0x7f8a70712e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f8a6fca9b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f382c7d2eea
+#1  0x7f382c7d3a45
+#2  0x7f382c7d41fc
+#3  0x7f382c8a02a3
+#4  0x7f382c89ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f382be31b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f47853e9eea
+#1  0x7f47853eaa45
+#2  0x7f47853eb1fc
+#3  0x7f47854b72a3
+#4  0x7f47854b1e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4784a48b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f91f1d17eea
+#1  0x7f91f1d18a45
+#2  0x7f91f1d191fc
+#3  0x7f91f1de52a3
+#4  0x7f91f1ddfe69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f91f1376b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f4bb51a2eea
+#1  0x7f4bb51a3a45
+#2  0x7f4bb51a41fc
+#3  0x7f4bb52702a3
+#4  0x7f4bb526ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f4bb4801b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe08a7aceea
+#1  0x7fe08a7ada45
+#2  0x7fe08a7ae1fc
+#3  0x7fe08a87a2a3
+#4  0x7fe08a874e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe089e0bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f6a482a9eea
+#1  0x7f6a482aaa45
+#2  0x7f6a482ab1fc
+#3  0x7f6a483772a3
+#4  0x7f6a48371e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f6a47908b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f084c312eea
+#1  0x7f084c313a45
+#2  0x7f084c3141fc
+#3  0x7f084c3e02a3
+#4  0x7f084c3dae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f084b971b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fed9a8a5eea
+#1  0x7fed9a8a6a45
+#2  0x7fed9a8a71fc
+#3  0x7fed9a9732a3
+#4  0x7fed9a96de69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fed99f04b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7db502ceea
+#1  0x7f7db502da45
+#2  0x7f7db502e1fc
+#3  0x7f7db50fa2a3
+#4  0x7f7db50f4e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f7db468bb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7efe395ffeea
+#1  0x7efe39600a45
+#2  0x7efe396011fc
+#3  0x7efe396cd2a3
+#4  0x7efe396c7e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7efe38c5eb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fa1d3aa2eea
+#1  0x7fa1d3aa3a45
+#2  0x7fa1d3aa41fc
+#3  0x7fa1d3b702a3
+#4  0x7fa1d3b6ae69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fa1d3101b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f64a038deea
+#1  0x7f64a038ea45
+#2  0x7f64a038f1fc
+#3  0x7f64a045b2a3
+#4  0x7f64a0455e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f649f9ecb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f0974900eea
+#1  0x7f0974901a45
+#2  0x7f09749021fc
+#3  0x7f09749ce2a3
+#4  0x7f09749c8e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f0973f5fb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f207915deea
+#1  0x7f207915ea45
+#2  0x7f207915f1fc
+#3  0x7f207922b2a3
+#4  0x7f2079225e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f20787bcb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fb050d01eea
+#1  0x7fb050d02a45
+#2  0x7fb050d031fc
+#3  0x7fb050dcf2a3
+#4  0x7fb050dc9e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fb050360b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fb66c7feeea
+#1  0x7fb66c7ffa45
+#2  0x7fb66c8001fc
+#3  0x7fb66c8cc2a3
+#4  0x7fb66c8c6e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fb66be5db96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f899b980eea
+#1  0x7f899b981a45
+#2  0x7f899b9821fc
+#3  0x7f899ba4e2a3
+#4  0x7f899ba48e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f899afdfb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f61b9586eea
+#1  0x7f61b9587a45
+#2  0x7f61b95881fc
+#3  0x7f61b96542a3
+#4  0x7f61b964ee69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f61b8be5b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fb2dff6deea
+#1  0x7fb2dff6ea45
+#2  0x7fb2dff6f1fc
+#3  0x7fb2e003b2a3
+#4  0x7fb2e0035e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fb2df5ccb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fef68b9beea
+#1  0x7fef68b9ca45
+#2  0x7fef68b9d1fc
+#3  0x7fef68c692a3
+#4  0x7fef68c63e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fef681fab96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f7acda60eea
+#1  0x7f7acda61a45
+#2  0x7f7acda621fc
+#3  0x7f7acdb2e2a3
+#4  0x7f7acdb28e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f7acd0bfb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f51bc09eeea
+#1  0x7f51bc09fa45
+#2  0x7f51bc0a01fc
+#3  0x7f51bc16c2a3
+#4  0x7f51bc166e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f51bb6fdb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f968f96eeea
+#1  0x7f968f96fa45
+#2  0x7f968f9701fc
+#3  0x7f968fa3c2a3
+#4  0x7f968fa36e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f968efcdb96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7fe59e263eea
+#1  0x7fe59e264a45
+#2  0x7fe59e2651fc
+#3  0x7fe59e3312a3
+#4  0x7fe59e32be69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7fe59d8c2b96
+#14  0x401c28
+#15  0xffffffffffffffff
+At line 3128 of file gui.F95 (unit = 5, file = 'stdin')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f0e878b1eea
+#1  0x7f0e878b2a45
+#2  0x7f0e878b31fc
+#3  0x7f0e8797f2a3
+#4  0x7f0e87979e69
+#5  0x4e0dd0
+#6  0x428ebc
+#7  0x429077
+#8  0x429106
+#9  0x40385a
+#10  0x403c1b
+#11  0x446d25
+#12  0x47a530
+#13  0x7f0e86f10b96
+#14  0x401c28
+#15  0xffffffffffffffff

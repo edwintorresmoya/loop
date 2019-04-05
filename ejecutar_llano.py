@@ -1,6 +1,6 @@
 from cpt_loop_estaciones import loop_area
-lmatriz_15 = loop_area(nlat_1 = 30, slat_1 = -30, wlon_1 = 280, elon_1 = 360,# Coordenadas límites de los datos de X
-        lat_2 = 25, lon_2 = 25, paso = 5, # Largo y ancho del dominio pequeño que se usará como información predictora y paso
+lmatriz_15 = loop_area(nlat_1 = 30, slat_1 = -30, wlon_1 = 140, elon_1 = 270,# Coordenadas límites de los datos de X
+        lat_2 = 25, lon_2 = 20, paso = 5, # Largo y ancho del dominio pequeño que se usará como información predictora y paso
         variable_x = '/home/edwin/Downloads/CPT/15.7.6/data/cfs_MAM_icMay_82_19.csv',
         variable_y = '/home/edwin/Downloads/CPT/15.7.6/data/CPT_Estac_llanos_chirps_Ok2.csv',
         minimum_number_modes_x = 1,
@@ -13,7 +13,7 @@ lmatriz_15 = loop_area(nlat_1 = 30, slat_1 = -30, wlon_1 = 280, elon_1 = 360,# C
         maximum_number_modes_y = 5,
         minimum_number_modes_cca = 1,# Número de modos de la correlación canónica
         maximum_number_modes_cca = 5,
-        raster = 'llano_25_25_5',# nombre del archivo de salida
+        raster = 'llano_p3',# nombre del archivo de salida
         month_forecast = 6, # Mes que se va a pronosticar
         lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
         spi_lenght = 3)
