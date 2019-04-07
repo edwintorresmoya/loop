@@ -35,7 +35,8 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
               raster = 'salida',# nombre del archivo de salida
               month_forecast = 3, # Mes que se va a pronosticar
               lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
-              spi_lenght = 3):
+              spi_lenght = 3,
+              datos_reales = False):
 
 
 
@@ -92,8 +93,13 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
         wl = dx2 - (lon_2 / 2)
         el = dx2 + (lon_2 / 2)
 
+        # Estos condicionales son puestos porque si los
+        # límites sobrepasan los límites (0 ó 360), entonces se tienen que ajustar
         if (el) > 360:
             el = (el)-360 
+        
+        if wl < 0:
+            wl = 360 - wl
         
         base_x2 = pd.DataFrame({'lon':[dx2],
                                  'lon_iz':[wl],
@@ -133,9 +139,10 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
                 print(maximum_number_modes_x, file=f)
                 print('2', file=f)
                 print(variable_y, file=f)
-                #print(month_forecast, file=f) # First month of season to forecast
-                #print(lenght_of_season, file=f)# Length of season to forecast
-                #print(spi_lenght, file=f) # Length of SPI
+                if datos_reales == True: # Es verdadero cuando se usa con datos reales y es falso cuando se usa con daots modelados
+                    print(month_forecast, file=f) # First month of season to forecast
+                    print(lenght_of_season, file=f)# Length of season to forecast
+                    print(spi_lenght, file=f) # Length of SPI
                 print(nor_lat, file=f)
                 print(sur_lat, file=f)
                 print(wes_lon, file=f)
@@ -214,10 +221,16 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     dataset.close()
     #pdb.set_trace()
     grafica_nc(archivo_nc = actual_dir+raster+'.nc')
+    
+    # Escritura de los archivos finales, estos son las salidas en csv de los archivos finales
+    matriz_final.to_csv(actual_dir + raster + '.csv')
+    base_x.to_csv(actual_dir + raster + '_base_x.csv')
+    base_y.to_csv(actual_dir + raster + '_base_y.csv')
 
 
 
-    return(matriz_final)       
+    return(matriz_final, base_x, base_y)# la Matriz final es la matriz que se tiene los datos de la extracción, 
+                                        # Las bases de x e y son las bases que tienen las coordenadas
 #pdb.set_trace()
 #matriz_15 = loop_area(paso=15, raster='paso15', lat_2 = 10, lon_2 = 10)
 #lmatriz_15 = loop_area(nlat_1 = 32, slat_1 = -30, wlon_1 = 174, elon_1 = 288,# Coordenadas límites de los datos de X
