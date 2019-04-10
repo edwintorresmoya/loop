@@ -36,7 +36,8 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
               month_forecast = 3, # Mes que se va a pronosticar
               lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
               spi_lenght = 3,
-              datos_reales = False):
+              datos_reales = False,
+              iso_lineas = True):
 
 
 
@@ -201,6 +202,9 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     level = dataset.createDimension('level', 0) 
     lat = dataset.createDimension('lat', len(base_y.lat))
     lon = dataset.createDimension('lon', len(base_x.lon)) 
+    pdb.set_trace()
+    if lon[0] < 0:
+        lon = lon + 360.0
     time = dataset.createDimension('time', None)
 
     times = dataset.createVariable('time', np   .float64, ('time',)) 

@@ -9,25 +9,34 @@ import numpy as np
 import pdb
 from mpl_toolkits.basemap import Basemap
 
-def grafica_nc(archivo_nc='paso15.nc'):
+def grafica_nc(archivo_nc='paso15.nc', iso_lineas = True):
     nc = Dataset(archivo_nc, mode='r')
     
     lat = nc.variables['latitude'][:]
-    lon = nc.variables['longitude'][:]-360.
+    lon = nc.variables['longitude'][:] - 360.0
     time = nc.variables['time'][:]
     #pdb.set_trace()
     cor_1 = nc.variables['cor_1'][:] # Valores del goodnes index
     nc.close()
     lat_inter = (lat[0] - lat[-1]) / 10.0
     lon_inter = (lon[-1] - lon[0]) / 10.0
-    map = Basemap(projection='merc',llcrnrlon=(lon[0]-(1*lon_inter)),llcrnrlat=(lat[-1]-(1*lat_inter)),urcrnrlon=(lon[-1]+(1*lon_inter)),urcrnrlat=(lat[0]+(1*lat_inter)),resolution='i') # projection, lat/lon extents and resolution of polygons to draw los valores adicionales se ponen para poder hacer más grandes o más pqueños los valores
+    pdb.set_trace()
+    if (((lon[0]-(1*lon_inter)) > -360) & ((lat[-1]-(1*lat_inter)) > -90) & (lat[0]+(1*lat_inter) < 90)):
+        map = Basemap(projection='merc',llcrnrlon=(lon[0]-(1*lon_inter)),llcrnrlat=(lat[-1]-(1*lat_inter)),urcrnrlon=(lon[-1]+(1*lon_inter)),urcrnrlat=(lat[0]+(1*lat_inter)),resolution='i') # projection, lat/lon extents and resolution of polygons to draw los valores adicionales se ponen para poder hacer más grandes o más pqueños los valores
+    else:
+        map = Basemap(projection='merc',llcrnrlon=(lon[0]),llcrnrlat=(lat[-1]),urcrnrlon=(lon[-1]),urcrnrlat=(lat[0]),resolution='i') # projection, lat/lon extents and resolution of polygons to draw los valores adicionales se ponen para poder hacer más grandes o más pqueños los valores
+    #map = Basemap(projection='merc',llcrnrlat=-80,urcrnrlat=80,llcrnrlon=-360,urcrnrlon= 0,lat_ts=20,resolution='c')
+    #map = Basemap(projection='geos',lon_0=-73,resolution='l') # usada para hacer la proyección del mundo redondo
     # resolutions: c - crude, l - low, i - intermediate, h - high, f - full
     
     
     map.drawcoastlines()
     map.drawstates()
     map.drawcountries()
-    map.drawlsmask(land_color='Linen', ocean_color='#CCFFFF') # can use HTML names or codes for colors
+    try:
+        map.drawlsmask(land_color='Linen', ocean_color='#CCFFFF') # can use HTML names or codes for colors
+    except:
+        next
     map.drawcounties() # you can even add counties (and other shapefiles!)
     
     
@@ -40,12 +49,14 @@ def grafica_nc(archivo_nc='paso15.nc'):
     x,y = map(lons,lats)
     
     
-    clevs = np.arange(960,1040,4)
+    clevs = np.arange(np.nanmin(cor_1),np.nanmax(cor_1), (np.nanmax(cor_1) - np.nanmin(cor_1))/10)
+    pdb.set_trace()
     cs = map.contour(x,y,cor_1[0,0,:,:],clevs,colors='blue',linewidths=1.)
     
     
     
-    plt.clabel(cs, fontsize=9, inline=1) # contour labels
+    if iso_lineas == True:
+        plt.clabel(cs, fontsize=9, inline=1) # contour labels
     plt.title('Mean Sea Level Pressure')
     
     temp = map.contourf(x,y,cor_1[0,0,:,:])
@@ -56,5 +67,6 @@ def grafica_nc(archivo_nc='paso15.nc'):
     plt.savefig(archivo_nc[:-3]+'.png', figsize=(20,10) ,dpi = 199)
     #plt.show()
 
-#grafica_nc(archivo_nc = 'llano_p1.nc')
+#grafica_nc(archivo_nc = 'llano_25_25_5.nc')
+grafica_nc(archivo_nc = 'llano_25_25_5_todo_mundo.nc')
 #grafica_nc()
