@@ -3,6 +3,7 @@
 """
 Created on Fri Mar  8 14:55:13 2019
 script para encontrar áreas en el cpt
+Para datos de las estaciones
 @author: edwin
 """
 import pandas as pd
@@ -11,27 +12,38 @@ import pdb
 import os
 import time
 from netCDF4 import Dataset
+from mapas_matplot_lib import grafica_nc
 
 #nlat_1 = 28; slat_1 = -6; wlon_1 = 162; elon_1 = 322; lat_2 = 12; lon_2 = 12
 #pasox=0.55; pasoy = 0.55
 
 #nlat_1 = 90, slat_1 = -90, wlon_1 = -10, elon_1 = 349,
-def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio total
-              lat_2 = 10, lon_2 = 10, paso = 10, # Dominio de muestreo y paso Ojo lo que esté con y se entiende como la variable predictora
+def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas límites de los datos de X
+              lat_2 = 10, lon_2 = 10, paso = 10, # Largo y ancho del dominio pequeño que se usará como información predictora y paso
               variable_x = '/home/edwin/.wine/drive_c/CPT/basura/sst_2000_2018.tsv',
               variable_y = '/home/edwin/.wine/drive_c/CPT/basura/precip_2000_2018.tsv', 
+              ubiacion_cpt = '/home/edwin/Downloads/CPT/15.7.6',
+              dir_salida = '/media/edwin/6F71AD994355D30E/Edwin/alexander/loop/amj_folder',
               minimum_number_modes_x = 1,
               maximum_number_modes_x = 5,
-              nor_lat = 11, # Para los datos en grilla de los Y
+              nor_lat = 11, # Coordenadas que se van a predecir# Para los datos en grilla de los Y
               sur_lat = -4,
-              wes_lon = 281,
-              eas_lon = 291,
+              wes_lon = 281,# Coordenadas que se van a predecir
+              eas_lon = 291,# Coordenadas que se van a predecir
               minimum_number_modes_y = 1,
               maximum_number_modes_y = 5,
               minimum_number_modes_cca = 1,# Número de modos de la correlación canónica
               maximum_number_modes_cca = 3,
-              raster = 'salida'): # Nombre del archivo de la salida
-    
+              raster = 'salida',# nombre del archivo de salida
+              month_forecast = 3, # Mes que se va a pronosticar
+              lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
+              spi_lenght = 3,
+              datos_reales = False,
+              iso_lineas = True):
+
+
+
+
     # Función creada para buscar las áreas que mejores resultados presentan para 
     # correlacionar las SST con las estaciones.
     
@@ -48,10 +60,14 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
     #matriz_5_15 = loop_area(paso=5, raster='paso5_15', lat_2 = 10, lon_2 = 10)
     #         
     #Cuando se valla a hacer mapas es mejor usar la proyección EPSG=3832
-    
-    #pdb.set_trace()
+
+    ###Condicional para evitar el paso de las longituded
+
+    print(elon_1)
     #Primer punto
-    actual_dir = os.getcwd()+'/'
+    pdb.set_trace()
+    #os.getcwd(dir_salida)
+    actual_dir = dir_salida+'/'
     dx1 = wlon_1 + (lon_2 /2)
     dy1 = nlat_1 - (lat_2 / 2)
     
@@ -80,6 +96,14 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
     while dx2 < elon_1:
         wl = dx2 - (lon_2 / 2)
         el = dx2 + (lon_2 / 2)
+
+        # Estos condicionales son puestos porque si los
+        # límites sobrepasan los límites (0 ó 360), entonces se tienen que ajustar
+        if (el) > 360:
+            el = (el)-360 
+        
+        if wl < 0:
+            wl = 360 - wl
         
         base_x2 = pd.DataFrame({'lon':[dx2],
                                  'lon_iz':[wl],
@@ -93,14 +117,12 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
     # Se crea la base que va a almacenar los resultados de la interpolación
     columns_1 = base_x.lon.tolist()    
     matriz_final = pd.DataFrame(index=base_y.lat.tolist(), columns = columns_1)
-    #pdb.set_trace()    
-    os.chdir('/home/edwin/Downloads/CPT/15.7.6')#Ojo se tiene que ejecutar donde se pueda ejecutar el ./CPT.exe
+    os.chdir(ubiacion_cpt)#Ojo se tiene que ejecutar donde se pueda ejecutar el ./CPT.exe
     os.popen('touch salida.txt') # Se crea este archivo para que luego se elimine
     for coun_lat, (lat, lat_sup, lat_inf) in enumerate(zip(base_y.lat, base_y.lat_sup, base_y.lat_inf)):
-        #print(coun_lat, lat, lat_sup, lat_inf)
+        print('====================================',str(coun_lat)+' de '+str(len(base_y.lat)), '============================================================================')
         for coun_lon, (lon, lon_iz, lon_de) in enumerate(zip(base_x.lon, base_x.lon_iz, base_x.lon_de)):
-            #pdb.set_trace()
-            print(lat, lon, str(coun_lon) +' de '+ str(len(base_x.lon)))
+            print(lat, lon)
             
             #f = open('script-'+str(lat)+'-'+str(lon)+'.txt', 'w')
             #with open('script-'+str(lat)+'-'+str(lon)+'.txt', 'w') as f:
@@ -119,6 +141,10 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
                 print(maximum_number_modes_x, file=f)
                 print('2', file=f)
                 print(variable_y, file=f)
+                if datos_reales == True: # Es verdadero cuando se usa con datos reales y es falso cuando se usa con daots modelados
+                    print(month_forecast, file=f) # First month of season to forecast
+                    print(lenght_of_season, file=f)# Length of season to forecast
+                    print(spi_lenght, file=f) # Length of SPI
                 print(nor_lat, file=f)
                 print(sur_lat, file=f)
                 print(wes_lon, file=f)
@@ -127,11 +153,39 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
                 print(maximum_number_modes_y, file=f)
                 print(minimum_number_modes_cca, file=f)
                 print(maximum_number_modes_cca, file=f)
-                print('533', file=f)
+# las nuevas líneas
                 print('4', file=f)
+                print('1982', file=f)
+                print('5', file=f)
+                print('1982', file=f)
+                print('6', file=f)
+                print('2019', file=f)
+                print('9', file=f)
+                print('1', file=f)
+                print('531', file=f)
+                print('3', file=f)
+                print('7', file=f)
+                print('36', file=f)
+                print('8', file=f)
+                print('3', file=f)
+                print('541', file=f)
+                print('542', file=f)
+                print('544', file=f)
+                print('-999', file=f)
+                print('10', file=f)
+                print('10', file=f)
+                print('1', file=f)
+                print('4', file=f)
+                print('-999', file=f)
+                print('10', file=f)
+                print('10', file=f)
+                print('1', file=f)
+                print('4', file=f)
+                print('554', file=f)
                 print('2', file=f)
-                print('-1.3', file=f)
-                print('-1.6', file=f)
+                print('133', file=f)
+#Fin de las nuevas lineas             
+
                 print('311', file=f)
                 print('131', file=f) # Dar formato a la salida
                 print('2', file=f) # Formato definido
@@ -142,8 +196,8 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
             valor_1 = os.popen('./CPT.x < script_loop.txt > salida.txt')
             valor_1.read() # es un paso que parece innecesaro pero se debe hacer para que se respete el tiempo del procesamiento del código en bash
             valor_1.close()
-            while 'salida.txt' not in os.listdir(): # usado para dare tiempo al procesamiento, es por prevensión, pero creo que no es necesario
-                time.sleep(2)
+            #while 'salida.txt' not in os.listdir(): # usado para dare tiempo al procesamiento, es por prevensión, pero creo que no es necesario
+            #    time.sleep(2)
                 
                 
             
@@ -168,11 +222,15 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
     
 
 
+    # Escritura de los archivos finales, estos son las salidas en csv de los archivos finales
+    matriz_final.to_csv(actual_dir + raster + '.csv')
+    base_x.to_csv(actual_dir + raster + '_base_x.csv')
+    base_y.to_csv(actual_dir + raster + '_base_y.csv')
+
     ###Creación del archivo NetCDF
+    #os.popen('rm '+actual_dir+raster+'.nc') # Se crean estos archivos temporales, porque si el archivo está repetido presenta un error.
     os.popen('touch '+actual_dir+raster+'.nc') # Se crean estos archivos temporales, porque si el archivo está repetido presenta un error.
-    os.popen('rm '+actual_dir+raster+'.nc')
     dataset = Dataset(actual_dir+raster+'.nc', 'w', fromat='NETCDF4_CLASSIC') 
-    #dataset = Dataset('hola.nc', 'w', fromat='NETCDF4_CLASSIC') 
     level = dataset.createDimension('level', 0) 
     lat = dataset.createDimension('lat', len(base_y.lat))
     lon = dataset.createDimension('lon', len(base_x.lon)) 
@@ -184,19 +242,42 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,#dominio tota
     longitudes = dataset.createVariable('longitude', np.float32,  ('lon',)) 
 
     corr = dataset.createVariable('cor_1', np.float32, ('time','level','lat','lon'))
+    
+    if base_x.lon.tolist()[0] < 0:
+        base_x.lon = base_x.lon + 360.0
 
     latitudes[:] = base_y.lat.tolist()
     longitudes[:] =  base_x.lon.tolist()
     
     #Llenado de los datos
-    #pdb.set_trace()              
     corr[0,0,:,:] = matriz_final.as_matrix()
 
     ##Finalización del netcdf
     dataset.close()
+    grafica_nc(archivo_nc = actual_dir+raster+'.nc', ancho = lon_2, alto = lat_2, paso = paso)
+    
 
 
 
-    return(matriz_final)       
+    return(matriz_final, base_x, base_y)# la Matriz final es la matriz que se tiene los datos de la extracción, 
+                                        # Las bases de x e y son las bases que tienen las coordenadas
+#matriz_15 = loop_area(paso=15, raster='paso15', lat_2 = 10, lon_2 = 10)
+#lmatriz_15 = loop_area(nlat_1 = 32, slat_1 = -30, wlon_1 = 174, elon_1 = 288,# Coordenadas límites de los datos de X
+#        lat_2 = 10, lon_2 = 10, paso = 10, # Largo y ancho del dominio pequeño que se usará como información predictora y paso
+#        variable_x = '/home/edwin/Downloads/CPT/15.7.6/data/ERSST_OND_1982-2014.tsv',
+#        variable_y = '/home/edwin/Downloads/CPT/15.7.6/data/CPT_Estac_llanos_chirps_Ok2.csv', 
+#        minimum_number_modes_x = 1,
+#        maximum_number_modes_x = 5,
+#        nor_lat = 6, # Coordenadas que se van a predecir# Para los datos en grilla de los Y
+#        sur_lat = 3,
+#        wes_lon = -75,# Coordenadas que se van a predecir
+#        eas_lon = -71,# Coordenadas que se van a predecir
+#        minimum_number_modes_y = 1,
+#        maximum_number_modes_y = 5,
+#        minimum_number_modes_cca = 1,# Número de modos de la correlación canónica
+#        maximum_number_modes_cca = 3,
+#        raster = 'llano_p1',# nombre del archivo de salida
+#        month_forecast = 3, # Mes que se va a pronosticar
+#        lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
+#        spi_lenght = 3)
 
-matriz_15 = loop_area(paso=15, raster='paso15', lat_2 = 10, lon_2 = 10)

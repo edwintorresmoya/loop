@@ -1,0 +1,8 @@
+ncols 2
+nrows 2
+xllcenter -15.0
+yllcenter 10.0
+cellsize 10
+nodata_value -9999
+0.15  0.16
+0.19  0.19
