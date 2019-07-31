@@ -65,7 +65,6 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
 
     print(elon_1)
     #Primer punto
-    pdb.set_trace()
     #os.getcwd(dir_salida)
     actual_dir = dir_salida+'/'
     dx1 = wlon_1 + (lon_2 /2)
@@ -254,6 +253,7 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
 
     ##Finalización del netcdf
     dataset.close()
+    pdb.set_trace()
     grafica_nc(archivo_nc = actual_dir+raster+'.nc', ancho = lon_2, alto = lat_2, paso = paso)
     
 

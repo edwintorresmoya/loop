@@ -10,6 +10,7 @@ import pdb
 from mpl_toolkits.basemap import Basemap
 
 def grafica_nc(archivo_nc='paso15.nc', iso_lineas = False, ancho = 9999, alto = 9999, paso = 9999):
+    pdb.set_trace()
     nc = Dataset(archivo_nc, mode='r')
     
     lat = nc.variables['latitude'][:]
@@ -35,7 +36,7 @@ def grafica_nc(archivo_nc='paso15.nc', iso_lineas = False, ancho = 9999, alto = 
         map.drawlsmask(land_color='Linen', ocean_color='#CCFFFF') # can use HTML names or codes for colors
     except:
         next
-    map.drawcounties() # you can even add counties (and other shapefiles!)
+    map.drawcountries() # you can even add counties (and other shapefiles!)
     
     
     parallels = np.arange(lat[-1],lat[0],abs(lat_inter*2)) # make latitude lines ever 5 degrees from 30N-50N
