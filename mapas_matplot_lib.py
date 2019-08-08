@@ -10,13 +10,17 @@ import pdb
 from mpl_toolkits.basemap import Basemap
 
 def grafica_nc(archivo_nc='paso15.nc', iso_lineas = False, ancho = 9999, alto = 9999, paso = 9999):
-    pdb.set_trace()
     nc = Dataset(archivo_nc, mode='r')
     
     lat = nc.variables['latitude'][:]
     lon = nc.variables['longitude'][:] - 360.0
     time = nc.variables['time'][:]
     cor_1 = nc.variables['cor_1'][:] # Valores del goodnes index
+#    lat_sup = nc.variables['lat_sup1'][:]
+#    lat_inf = nc.variables['lat_inf1'][:]
+#    lon_iz = nc.variables['lon_iz1'][:]
+#    lon_de = nc.variables['lon_de1'][:]
+
     nc.close()
     lat_inter = (lat[0] - lat[-1]) / 10.0
     lon_inter = (lon[-1] - lon[0]) / 10.0

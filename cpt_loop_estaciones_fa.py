@@ -39,7 +39,9 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
               lenght_of_season = 3,# Longitud del periodo que se va a tener en cuenta para pronosticar
               spi_lenght = 3,
               datos_reales = False,
-              iso_lineas = True):
+              iso_lineas = True,
+              missing_val_x = -999,
+              missing_val_y = -999):
 
 
 
@@ -116,10 +118,14 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     # Se crea la base que va a almacenar los resultados de la interpolación
     columns_1 = base_x.lon.tolist()    
     matriz_final = pd.DataFrame(index=base_y.lat.tolist(), columns = columns_1)
+    matriz_lat_sup = pd.DataFrame(index=base_y.lat.tolist(), columns = columns_1)
+    matriz_lat_inf = pd.DataFrame(index=base_y.lat.tolist(), columns = columns_1)
+    matriz_lon_iz = pd.DataFrame(index=base_y.lat.tolist(), columns = columns_1)
+    matriz_lon_de = pd.DataFrame(index=base_y.lat.tolist(), columns = columns_1)
     os.chdir(ubiacion_cpt)#Ojo se tiene que ejecutar donde se pueda ejecutar el ./CPT.exe
     os.popen('touch salida.txt') # Se crea este archivo para que luego se elimine
     for coun_lat, (lat, lat_sup, lat_inf) in enumerate(zip(base_y.lat, base_y.lat_sup, base_y.lat_inf)):
-        print('====================================',str(coun_lat)+' de '+str(len(base_y.lat)), '============================================================================')
+        print('====================================',str(coun_lat+1)+' de '+str(len(base_y.lat)), '============================================================================')
         for coun_lon, (lon, lon_iz, lon_de) in enumerate(zip(base_x.lon, base_x.lon_iz, base_x.lon_de)):
             print(lat, lon)
             
@@ -152,38 +158,53 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
                 print(maximum_number_modes_y, file=f)
                 print(minimum_number_modes_cca, file=f)
                 print(maximum_number_modes_cca, file=f)
-# las nuevas líneas
-                print('4', file=f)
-                print('1982', file=f)
-                print('5', file=f)
-                print('1982', file=f)
-                print('6', file=f)
-                print('2019', file=f)
-                print('9', file=f)
-                print('1', file=f)
-                print('531', file=f)
-                print('3', file=f)
-                print('7', file=f)
-                print('36', file=f)
-                print('8', file=f)
-                print('3', file=f)
-                print('541', file=f)
-                print('542', file=f)
+
+                ## Para seleccionar los valores missing values
                 print('544', file=f)
-                print('-999', file=f)
+                print(missing_val_x, file=f)
                 print('10', file=f)
                 print('10', file=f)
                 print('1', file=f)
-                print('4', file=f)
-                print('-999', file=f)
+                print('1', file=f)
+                print(missing_val_y, file=f)
                 print('10', file=f)
                 print('10', file=f)
                 print('1', file=f)
-                print('4', file=f)
-                print('554', file=f)
-                print('2', file=f)
-                print('133', file=f)
-#Fin de las nuevas lineas             
+                print('1', file=f)
+                ## Fin de los valores missing
+
+## # las nuevas líneas
+##                 print('4', file=f)
+##                 print('1982', file=f)
+##                 print('5', file=f)
+##                 print('1982', file=f)
+##                 print('6', file=f)
+##                 print('2019', file=f)
+##                 print('9', file=f)
+##                 print('1', file=f)
+##                 print('531', file=f)
+##                 print('3', file=f)
+##                 print('7', file=f)
+##                 print('36', file=f)
+##                 print('8', file=f)
+##                 print('3', file=f)
+##                 print('541', file=f)
+##                 print('542', file=f)
+##                 print('544', file=f)
+##                 print('-999', file=f)
+##                 print('10', file=f)
+##                 print('10', file=f)
+##                 print('1', file=f)
+##                 print('4', file=f)
+##                 print('-999', file=f)
+##                 print('10', file=f)
+##                 print('10', file=f)
+##                 print('1', file=f)
+##                 print('4', file=f)
+##                 print('554', file=f)
+##                 print('2', file=f)
+##                 print('133', file=f)
+## #Fin de las nuevas lineas             
 
                 print('311', file=f)
                 print('131', file=f) # Dar formato a la salida
@@ -204,9 +225,16 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
             vt_1 = valor.read()
             valor.close()
             vt_2 = pd.to_numeric(vt_1[:-3])
+            print('valor ', vt_2) # Imprime el valor tomado
             
                         
             matriz_final.iloc[coun_lat, coun_lon]  = vt_2
+            
+    
+            matriz_lat_sup.iloc[coun_lat, coun_lon] = lat_sup 
+            matriz_lat_inf.iloc[coun_lat, coun_lon] = lat_inf 
+            matriz_lon_iz.iloc[coun_lat, coun_lon] = lon_iz 
+            matriz_lon_de.iloc[coun_lat, coun_lon] = lon_de 
     
     ff = open(actual_dir+str(raster)+'.asci', 'w')
     with open(actual_dir+str(raster)+'.asci', 'w') as ff:
@@ -218,7 +246,51 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
         print('nodata_value -9999', file=ff)
         print(matriz_final.to_string(index=False, header=False), file=ff)
     
-    
+############ ASCII de los valores de x e y
+
+    ff = open(actual_dir+str(raster)+'_lon_de.asci', 'w')
+    with open(actual_dir+str(raster)+'_lon_de.asci', 'w') as ff:
+        print('ncols '+str(len(matriz_lon_de.columns.values)), file=ff)
+        print('nrows '+str(len(matriz_lon_de.index)), file=ff)
+        print('xllcenter '+str(base_x.lon.tolist()[0] - 360), file=ff) # Toca restarle 360 para que la imagen quede mejor
+        print('yllcenter '+str(base_y.lat.tolist()[-1]), file=ff)
+        print('cellsize '+str(paso), file=ff)
+        print('nodata_value -9999', file=ff)
+        print(matriz_lon_de.to_string(index=False, header=False), file=ff)
+
+    ff = open(actual_dir+str(raster)+'_lon_iz.asci', 'w')
+    with open(actual_dir+str(raster)+'_lon_iz.asci', 'w') as ff:
+        print('ncols '+str(len(matriz_lon_iz.columns.values)), file=ff)
+        print('nrows '+str(len(matriz_lon_iz.index)), file=ff)
+        print('xllcenter '+str(base_x.lon.tolist()[0] - 360), file=ff) # Toca restarle 360 para que la imagen quede mejor
+        print('yllcenter '+str(base_y.lat.tolist()[-1]), file=ff)
+        print('cellsize '+str(paso), file=ff)
+        print('nodata_value -9999', file=ff)
+        print(matriz_lon_iz.to_string(index=False, header=False), file=ff)
+
+    ff = open(actual_dir+str(raster)+'_lat_inf.asci', 'w')
+    with open(actual_dir+str(raster)+'_lat_inf.asci', 'w') as ff:
+        print('ncols '+str(len(matriz_lat_inf.columns.values)), file=ff)
+        print('nrows '+str(len(matriz_lat_inf.index)), file=ff)
+        print('xllcenter '+str(base_x.lon.tolist()[0] - 360), file=ff) # Toca restarle 360 para que la imagen quede mejor
+        print('yllcenter '+str(base_y.lat.tolist()[-1]), file=ff)
+        print('cellsize '+str(paso), file=ff)
+        print('nodata_value -9999', file=ff)
+        print(matriz_lat_inf.to_string(index=False, header=False), file=ff)
+
+    ff = open(actual_dir+str(raster)+'_lat_sup.asci', 'w')
+    with open(actual_dir+str(raster)+'_lat_sup.asci', 'w') as ff:
+        print('ncols '+str(len(matriz_lat_sup.columns.values)), file=ff)
+        print('nrows '+str(len(matriz_lat_sup.index)), file=ff)
+        print('xllcenter '+str(base_x.lon.tolist()[0] - 360), file=ff) # Toca restarle 360 para que la imagen quede mejor
+        print('yllcenter '+str(base_y.lat.tolist()[-1]), file=ff)
+        print('cellsize '+str(paso), file=ff)
+        print('nodata_value -9999', file=ff)
+        print(matriz_lat_sup.to_string(index=False, header=False), file=ff)
+
+
+##### FInal de la escritura de los archivos ascii
+
 
 
     # Escritura de los archivos finales, estos son las salidas en csv de los archivos finales
@@ -241,6 +313,12 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     longitudes = dataset.createVariable('longitude', np.float32,  ('lon',)) 
 
     corr = dataset.createVariable('cor_1', np.float32, ('time','level','lat','lon'))
+            
+    ### Adición de las longitudes y las latitudes al archivo netCDF
+    lat_sup1 = dataset.createVariable('lat_sup1', np.float32, ('time','level','lat','lon'))
+    lat_inf1 = dataset.createVariable('lat_inf1', np.float32, ('time','level','lat','lon'))
+    lon_iz1 = dataset.createVariable('lon_iz1', np.float32, ('time','level','lat','lon'))
+    lon_de1 = dataset.createVariable('lon_de1', np.float32, ('time','level','lat','lon'))
     
     if base_x.lon.tolist()[0] < 0:
         base_x.lon = base_x.lon + 360.0
@@ -251,9 +329,14 @@ def loop_area(nlat_1 = 28, slat_1 = -6, wlon_1 = 162, elon_1 = 322,# Coordenadas
     #Llenado de los datos
     corr[0,0,:,:] = matriz_final.as_matrix()
 
+    ### Llenado de las dimensiones en el archivo NetCDF
+    lat_sup1[0,0,:,:] = matriz_lat_sup.as_matrix()
+    lat_inf1[0,0,:,:] = matriz_lat_inf.as_matrix()
+    lon_iz1[0,0,:,:] = matriz_lon_iz.as_matrix()
+    lon_de1[0,0,:,:] = matriz_lon_de.as_matrix()
+
     ##Finalización del netcdf
     dataset.close()
-    pdb.set_trace()
     grafica_nc(archivo_nc = actual_dir+raster+'.nc', ancho = lon_2, alto = lat_2, paso = paso)
     
 

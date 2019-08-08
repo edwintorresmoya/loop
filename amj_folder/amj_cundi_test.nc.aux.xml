@@ -1,0 +1,70 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">0.25</MDI>
+      <MDI key="STATISTICS_MEAN">0.13804166731425</MDI>
+      <MDI key="STATISTICS_MINIMUM">-0.090000003576279</MDI>
+      <MDI key="STATISTICS_STDDEV">0.050784659242351</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <Subdataset name="cor_1">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">0.25</MDI>
+          <MDI key="STATISTICS_MEAN">0.13804166731425</MDI>
+          <MDI key="STATISTICS_MINIMUM">-0.090000003576279</MDI>
+          <MDI key="STATISTICS_STDDEV">0.050784659242351</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="lat_inf1">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">5</MDI>
+          <MDI key="STATISTICS_MEAN">-17.5</MDI>
+          <MDI key="STATISTICS_MINIMUM">-40</MDI>
+          <MDI key="STATISTICS_STDDEV">14.361406616345</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="lat_sup1">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">30</MDI>
+          <MDI key="STATISTICS_MEAN">7.5</MDI>
+          <MDI key="STATISTICS_MINIMUM">-15</MDI>
+          <MDI key="STATISTICS_STDDEV">14.361406616345</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="lon_de1">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">275</MDI>
+          <MDI key="STATISTICS_MEAN">217.5</MDI>
+          <MDI key="STATISTICS_MINIMUM">160</MDI>
+          <MDI key="STATISTICS_STDDEV">34.610932762159</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="lon_iz1">
+    <PAMDataset>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MAXIMUM">255</MDI>
+          <MDI key="STATISTICS_MEAN">197.5</MDI>
+          <MDI key="STATISTICS_MINIMUM">140</MDI>
+          <MDI key="STATISTICS_STDDEV">34.610932762159</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
